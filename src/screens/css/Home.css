@@ -1,0 +1,80 @@
+.welcome{
+    text-align: center;
+    font-size: 50px;
+}
+.mainLogo{
+    display: flex;            /* הופך את התיבה לקונטיינר של Flex */
+    justify-content: center;  /* מרכז אופקית */
+    align-items: center;      /* מרכז אנכית (אם יש גובה) */
+    margin-bottom: 20px;      /* קצת רווח מתחת */
+    margin-top: 50px;
+  }
+.searchBar{
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.searchButton{
+    background-color: #232432;         /* צבע כחול מודרני */
+    color: white;                      /* טקסט לבן */
+    padding: 10px 20px;                /* ריפוד פנימי */
+    border: none;                      /* בלי גבול */
+    border-radius: 5px;                /* פינות מעוגלות */
+    font-size: 16px;                   /* גודל פונט נוח */
+    cursor: pointer;                   /* סמן של לחיצה */
+    margin: 20px auto 0;               /* רווח מעל ומרכז אופקית */
+    display: block;                    /* נדרש למרכז עם auto */
+    transition: background-color 0.3s; /* מעבר חלק בהובר */
+}
+.infoButton{
+    display: block;
+    margin: 20px auto; /* מרכז את הכפתור אופקית */
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  .infoBox {
+    position: fixed;          /* קופץ מעל הכל */
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 1001;          /* גבוה יותר מה-overlay */
+    direction: rtl;
+  }
+  .closeInfoBox {
+    display: block;
+    margin: 10px auto; /* אוטומטי משני הצדדים – מרכז אופקי */
+    font-size: 24px;   /* לשנות לפי הצורך */
+    cursor: pointer;
+  }
+  .centered-section {
+    text-align: center;
+    margin-top: 30px;
+    direction: rtl; /* אם אתה כותב בעברית */
+  }
+  
+  .centered-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+
+  
+  
